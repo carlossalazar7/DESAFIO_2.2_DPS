@@ -45,7 +45,7 @@ export default function App() {
         setRenta(salario*0.21);
       }else if(salario > 2200    && salario <= 3700){
         setRenta(salario*0.25);
-      }else if(salario > 3700){
+      }else if(salario >= 3700){
         setRenta(salario*0.29);
       }
 
